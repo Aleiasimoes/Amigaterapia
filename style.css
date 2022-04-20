@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.cabecalho-imagem-logo {
+    height: 120px;
+}
+
+.cabecalho-menu {
+display: flex;
+gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: lightslategray;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.counteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.imagem-secundaria {
+    height: 180px;
+}
+
+.titulo {
+    color:rgb(245, 147, 176)
+}
+
+.tags {
+     font-weight: 300;
+    font-size: 17px;
+    color: rgb(245, 147, 176);
+}
